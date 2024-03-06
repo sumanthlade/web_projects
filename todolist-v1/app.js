@@ -1,5 +1,6 @@
 const express=require('express')
 const parser=require('body-parser')
+const ejs=require("ejs")
 const date=require(__dirname+'/date.js')
 
 const app=express()
