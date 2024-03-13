@@ -27,6 +27,17 @@
 	height: 60px;
 	background-color: #1abc9c;
 }
+.closebtn {
+  margin-left: 15px;
+  color: black;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
 
 .footer p {
 	margin-top: 25px;
