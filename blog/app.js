@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-const uri = "mongodb+srv://sumanth_lade:sumanth123@cluster0.lppghe8.mongodb.net/blogDB"
+const uri = "mongodb+srv://sumanth_lade:pass@cluster0.lppghe8.mongodb.net/blogDB"
 mongoose.connect(uri)
 const postSchema = new mongoose.Schema({
   title: {
